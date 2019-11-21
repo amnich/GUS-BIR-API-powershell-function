@@ -214,7 +214,7 @@ function Get-BIRCompanyData {
         $resBir
         $i++
         if ($i -lt $VATNumber.count) {
-            Start-Sleep -Milliseconds $DelayBetweenRequest
+            Start-Sleep -Milliseconds $DelayBetweenRequests
         }
 
     }

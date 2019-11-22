@@ -37,7 +37,8 @@ DataZakonczeniaDzialalnosci :
   
   Example: PL123-45-67-890 => 1234567890
       
-  Can be a single number or an array of number
+  Can be a single number or an array
+  
   Example:
   
     $Vat = 1234567890, 2345678901      

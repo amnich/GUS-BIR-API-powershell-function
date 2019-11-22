@@ -21,20 +21,31 @@ function Get-BIRCompanyData {
 .PARAMETER Key
     API Key.
     To get an API key you need to register -> https://api.stat.gov.pl/Home/RegonApi#menu2
+    
 .PARAMETER TestMode
     Runs query in test mode using URL https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc and test API key
 
 .PARAMETER DelayBetweenRequests
     Delay between requests in ms. Current limitations of API
     Info about current limitation in requests -> https://api.stat.gov.pl/Home/RegonApi#menu3
+    
 .EXAMPLE
    Get-BIRCompanyData -VATNumber 1234567890 -TestMode
 
    Runs query in test mode
+   
 .EXAMPLE
     Get-BIRCompanyData -VATNumber 1234567890 -Key YourUniqueKey
+    
 .EXAMPLE
     Get-BIRCompanyData -VATNumber 1234567890, 2345678910 -Key YourUniqueKey
+    
+.NOTES
+  Version:        0.8
+  Author:         Adam Mnich
+  Creation Date:  2019-11-21
+  Source: https://github.com/amnich/GUS-BIR-API-powershell-function
+    
 .LINK
     https://api.stat.gov.pl/Home/RegonApi
 #>

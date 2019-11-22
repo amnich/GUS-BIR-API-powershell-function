@@ -8,7 +8,7 @@ Used actions: Zaloguj, Wyloguj, DaneSzukajPodmioty
 
 Url of API: [https://wyszukiwarkaregon.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc](https://wyszukiwarkaregon.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc)
 
-You need to register to get your API key.
+You need to register at [GUS](https://api.stat.gov.pl/) to get your API key.
 
 ```powershell
 PS C:\> Get-BIRCompanyData -VATNumber 5270103391 -Key 'YourPrivateKey'

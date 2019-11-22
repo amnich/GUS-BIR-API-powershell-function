@@ -32,12 +32,17 @@ DataZakonczeniaDzialalnosci :
 #### PARAMETER VATNumber
 
   Polish Vat Registration Number. 
+  
   All non-digit characters are removed
-      Example: PL123-45-67-890 => 1234567890
+  
+  Example: PL123-45-67-890 => 1234567890
+      
   Can be a single number or an array of number
-      Example: $Vat = 1234567890, 2345678901
-      Get-BIRCompanyData -VATNumber $Vat -TestMode
-      (returns two records)
+  Example:
+  
+    $Vat = 1234567890, 2345678901      
+    Get-BIRCompanyData -VATNumber $Vat -TestMode      
+    (returns two records)
 
 #### PARAMETER Key
 

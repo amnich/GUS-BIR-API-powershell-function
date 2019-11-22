@@ -29,9 +29,6 @@ Typ                         : P
 SilosID                     : 6
 DataZakonczeniaDzialalnosci :   
 ```
-
-Full code on [GitHub](https://github.com/amnich/GUS-BIR-API-powershell-function)
-
 #### PARAMETER VATNumber
 
   Polish Vat Registration Number. 
